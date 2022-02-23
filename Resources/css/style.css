@@ -5,4 +5,35 @@
     background-color: black;
     opacity: 0.9;
     text-align: center;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+/*header section*/
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*position: fixed;
+    z-index: 2;
+    opacity: 1;
+    width: 100%;*/
+}
+
+header img {
+    height: 50px;
+    margin: 0 10px;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.mission {
+    background-image: url(/Resources/images/img-mission-background.webp);
+    width: 1200px;
+    height: 700px;
 }
