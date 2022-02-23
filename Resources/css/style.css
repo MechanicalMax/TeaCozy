@@ -147,3 +147,12 @@ header ul li {
     margin-left: 20px;
     margin-bottom: 89px;
 }
+
+/* anchors */
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    color:rgb(255, 200, 132);
+}
